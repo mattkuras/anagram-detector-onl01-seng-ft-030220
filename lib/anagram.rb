@@ -19,6 +19,7 @@ class Anagram
       final_array << element
     end
   end
+  final_array
 end
   
 end
