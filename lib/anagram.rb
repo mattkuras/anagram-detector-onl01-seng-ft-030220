@@ -18,7 +18,6 @@ class Anagram
       element
     end
   end
-      binding.pry 
   end
 end
   
