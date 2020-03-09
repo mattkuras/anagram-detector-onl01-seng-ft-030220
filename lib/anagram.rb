@@ -17,8 +17,8 @@ class Anagram
     if letters == split_word
       element
     end
-    binding.pry 
   end
+      binding.pry 
   end
 end
   
