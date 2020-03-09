@@ -16,6 +16,7 @@ class Anagram
      array_of_split_words.each do |letters| 
     if letters == split_word
       element
+    else []
     end
   end
   end
