@@ -13,8 +13,7 @@ class Anagram
     array_of_split_words = []
     final_array = []
 
-    array.each do |element| array_of_split_words << element.split("")
-    array_of_split_words.sort!
+    array.each do |element| array_of_split_words << element.split("").sort 
     binding.pry
      array_of_split_words.each do |letters| 
      
