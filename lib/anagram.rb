@@ -16,7 +16,6 @@ class Anagram
     array.each do |element|
     if element.split("").sort == split_word.sort 
       final_array << element
-    binding.pry 
   end
 end
   final_array
