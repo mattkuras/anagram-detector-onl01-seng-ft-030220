@@ -13,16 +13,10 @@ class Anagram
     array_of_split_words = []
     final_array = []
 
-    array.each do |element| array_of_split_words << element.split("").sort 
-    binding.pry
-     array_of_split_words.each do |letters| 
-     
-
-    if letters == split_word
-        
+    array.each do |element|
+    if element.split("").sort == split_word.sort 
       final_array << element
-    
-    end
+    binding.pry 
   end
 end
   final_array
