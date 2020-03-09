@@ -13,7 +13,7 @@ class Anagram
     array_of_split_words = []
     array.each do |element| array_of_split_words << element.split("")
   end 
-     array_of_split_words.map do |letters| 
+     array_of_split_words.map! do |letters| 
     if letters == split_word
       return element
     end
