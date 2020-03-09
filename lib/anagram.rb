@@ -11,9 +11,10 @@ class Anagram
   def match(array)
     split_word = @word.split("")
     array_of_split_words = []
+    final_array = []
+
     array.each do |element| array_of_split_words << element.split("")
    
-  final_array = []
      array_of_split_words.each do |letters| 
     if letters == split_word
       final_array << element
